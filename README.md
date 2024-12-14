@@ -15,14 +15,18 @@ In the Include folder, you can find:
 * testlog.h: allows for colored logs.
 * load_balancer_container.h: contains the declarations regarding a container for load info of shards and compute nodes used by the load balancers.
 * load_balancer.h: contains the declarations of the load_balancers.
+
 In the src directory you can find:
 * load_balancer.cpp and load_info_container.cpp: implementations of their header files.
 * load_balancer_test.cpp: the implementation of a simulator for testing different load_balancers.
+
 Lastly, you can find the results of some of the runs in the results directory:
 * the results/raw directory contains the raw output of the experiments.
 * the results/table directory contains table data derived from the raw outputs.
 
 ## Refrences:
 [1] R. Wang, J. Wang, P. Kadam, M. Tamer Özsu and W. G. Aref, "dLSM: An LSM-Based Index for Memory Disaggregation," 2023 IEEE 39th International Conference on Data Engineering (ICDE), Anaheim, CA, USA, 2023, pp. 2835-2849, doi: 10.1109/ICDE55515.2023.00217.
+
 [2] https://github.com/google/leveldb
+
 [3] https://stackoverflow.com/a/44154095
