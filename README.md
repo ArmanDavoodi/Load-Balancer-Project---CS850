@@ -1,7 +1,7 @@
 # Load-Balancer-Project---CS850
 * Course: CS850 - Advanced Topics in Computer Architecture: System Support for Next-Generation Computer Architectures
 * Term: Fall 2024
-* Instructor: Sihang Liu 
+* Instructor: Prof. Sihang Liu 
 
 This projects implements a load balancer for dLSM[1] for a multi compute node/single memory node platform as the final project of CS850. It contains three load balancing methods, and uses a simulator to test how each algorithm works theoretically. The simulation uses the random.h file of the leveldb[2] and adds a zipf-like distribution implementation from [3] stackoverflow discusstion to it.
 
