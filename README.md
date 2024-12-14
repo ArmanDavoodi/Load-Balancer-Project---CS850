@@ -11,6 +11,7 @@ build/load_balancer_test -h
 
 ## Project Structure
 The root directory has three(four if you build the program) folders, and the makefile.
+
 In the Include folder, you can find:
 * config.h: includes some configuration which allows enabling/disabling logging options. Do not comment out the PRINTER_LOCK!
 * random.h: it is the random.h file implemented by leveldb[2]. The zipf-like distribution implementation[3] is also appended to this file.
