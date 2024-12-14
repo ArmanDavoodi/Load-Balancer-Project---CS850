@@ -5,7 +5,9 @@ This projects intends to implement a load balancer for dLSM[1] for a multi compu
 ## Build/Run
 To build the code, you can use the make command which generates all necessary files in the build directory.
 To run the code, execute load_balancer_test in the build directory. You can also change defualt configurations of the simulation by passing necessary arguments when executing the program.
-To view all available options run <load_balancer_test -h>
+To view all available options run: 
+
+build/load_balancer_test -h
 
 ## Project Structure
 The root directory has three(four if you build the program) folders, and the makefile.
